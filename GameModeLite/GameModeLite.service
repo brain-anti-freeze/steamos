@@ -1,0 +1,9 @@
+[Unit]
+Description=Game Mode Lite
+
+[Service]
+Type=oneshot
+ExecStart=/home/desktop/GameModeLite.pl
+
+[Install]
+WantedBy=multi-user.target
